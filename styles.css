@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-body {
+/* body {
   background: #1c1c1c;
   overflow: hidden;
   height: 100vh;
-}
+} */
 
 .bar {
   color: black;
@@ -19,10 +19,41 @@ body {
   padding: 16px;
 }
 
+.hunger {
+  padding: 16px;
+}
+
 .gameBoy {
   max-width: 420px;
   background: #f8d26d;
   border-radius: 10px;
   margin: 0 auto;
   height: 657px;
+}
+
+@import "/variables.css";
+
+.main {
+  width: 68px;
+  height: 68px;
+  background-color: #f8d26d;
+  border: 5px solid #dfa46d;
+  border-radius: 50%;
+  box-shadow: 0px 7px 0px #724d50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.main:hover {
+  box-shadow: 0px 4px 0px var(--color-plum);
+  transform: translateY(3px);
+}
+
+.icon {
+  width: 50%;
+  height: 50%;
 }

@@ -9,10 +9,28 @@ export default class Tamagotchi {
 
   displayHealth = (elementSelector) => {
     const displayElement = document.querySelector(elementSelector);
+    displayElement.innerText = this.health.value;
+  };
+
+  displayHunger = (elementSelector) => {
+    const displayElement = document.querySelector(elementSelector);
+    displayElement.innerText = this.hunger.value;
+  };
+
+  displayEnergy = (elementSelector) => {
+    const displayElement = document.querySelector(elementSelector);
     displayElement.innerText = this.energy.value;
+  };
+
+  displayFun = (elementSelector) => {
+    const displayElement = document.querySelector(elementSelector);
+    displayElement.innerText = this.fun.value;
   };
 
   mount = ({ healthElement, hungerElement, energyElement, funElement }) => {
     this.displayHealth(healthElement);
+    this.displayHunger(hungerElement);
+    this.displayFun(funElement);
+    this.displayEnergy(energyElement);
   };
 }
