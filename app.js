@@ -14,4 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document
     .getElementById("hunger")
     .addEventListener("click", () => console.log("feed"));
+  document
+    .getElementById("fun")
+    .addEventListener("click", () => console.log("fun"));
+  document
+    .getElementById("sleep")
+    .addEventListener("click", () => console.log("sleep"));
 });

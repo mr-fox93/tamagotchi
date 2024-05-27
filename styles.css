@@ -13,6 +13,8 @@
 .bar {
   color: black;
   padding: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .health {
