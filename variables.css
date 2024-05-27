@@ -1,0 +1,17 @@
+:root {
+  --color-dark: #1c1c1c;
+  --color-yellow: #f8d26d;
+  --color-timber: #dfa46d;
+  --color-plum: #724d50;
+  --color-lightest-blue: #e7f6fd;
+  --color-light-blue: #c0edfc;
+  --color-blue: #9fdcf9;
+  --color-white: #ffffff;
+
+  --font-family-vt323: "VT323", monospace;
+  --font-size-large: 60px;
+  --line-height-large: 60px;
+  --font-size-medium: 40px;
+  --line-height-medium: 40px;
+  --letter-spacing-medium: 0.15em;
+}
