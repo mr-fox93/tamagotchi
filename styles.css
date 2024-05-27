@@ -26,6 +26,7 @@
 }
 
 .gameBoy {
+  display: flex;
   max-width: 420px;
   background: #f8d26d;
   border-radius: 10px;
@@ -58,4 +59,15 @@
 .icon {
   width: 50%;
   height: 50%;
+}
+
+.buttons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.screen {
+  display: flex;
+  align-items: flex-start;
 }
