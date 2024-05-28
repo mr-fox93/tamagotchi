@@ -4,11 +4,9 @@
   box-sizing: border-box;
 }
 
-/* body {
-  background: #1c1c1c;
-  overflow: hidden;
-  height: 100vh;
-} */
+body {
+  font-family: "VT323", monospace;
+}
 
 .bar {
   color: black;
@@ -17,24 +15,33 @@
   align-items: center;
 }
 
-.health {
-  padding: 16px;
+.icon {
+  width: 24px; /* Adjust the size as needed */
+  height: 24px;
+  margin-right: 8px; /* Add some space between icon and text */
 }
 
-.hunger {
-  padding: 16px;
+.health,
+.hunger,
+.energy,
+.fun {
+  font-size: 24px; /* Adjust the size as needed */
+  font-family: "VT323", monospace;
 }
 
 .gameBoy {
   display: flex;
-  max-width: 420px;
+  flex-direction: column;
+  /* max-width: 420px; */
   background: #f8d26d;
   border-radius: 10px;
   margin: 0 auto;
-  height: 657px;
+  /* height: 657px; */
+  justify-content: space-between;
+  padding: 20px; /* Adjust padding as needed */
+  width: 375px;
+  height: 812px;
 }
-
-@import "/variables.css";
 
 .main {
   width: 68px;
@@ -52,22 +59,18 @@
 }
 
 .main:hover {
-  box-shadow: 0px 4px 0px var(--color-plum);
+  box-shadow: 0px 4px 0px #724d50;
   transform: translateY(3px);
-}
-
-.icon {
-  width: 50%;
-  height: 50%;
 }
 
 .buttons {
   display: flex;
-  align-items: flex-end;
-  justify-content: center;
+  justify-content: space-around;
+  width: 100%;
 }
 
 .screen {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
 }
