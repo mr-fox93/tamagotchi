@@ -16,29 +16,27 @@ body {
 }
 
 .icon {
-  width: 24px; /* Adjust the size as needed */
+  width: 24px;
   height: 24px;
-  margin-right: 8px; /* Add some space between icon and text */
+  margin-right: 8px;
 }
 
 .health,
 .hunger,
 .energy,
 .fun {
-  font-size: 24px; /* Adjust the size as needed */
+  font-size: 24px;
   font-family: "VT323", monospace;
 }
 
 .gameBoy {
   display: flex;
   flex-direction: column;
-  /* max-width: 420px; */
   background: #f8d26d;
   border-radius: 10px;
   margin: 0 auto;
-  /* height: 657px; */
   justify-content: space-between;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 20px;
   width: 375px;
   height: 812px;
 }
